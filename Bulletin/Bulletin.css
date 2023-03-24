@@ -1,0 +1,117 @@
+body{
+    border: 3px;
+    border-color: black;
+    margin:0px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+    padding: 5px;
+}
+
+.bp{
+    border:0px;
+    margin:auto;
+    border-color: black;
+    text-align: center;
+    font-size: 11px;
+    width: 97.7%;
+    margin-left: 15px;
+
+
+}
+.bp td{
+    padding: 0 30px;
+    padding-left: 10px;
+
+}
+.tab{
+    border-collapse: collapse;
+    border:none;
+    width: 100%;
+}
+
+img{
+    margin: auto;
+    display: block;
+    margin-top: 3px;
+}
+
+h1{
+    margin: 0;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+    font-size: 30px;
+    color: rgb(52, 52, 221);
+    text-align: center;
+}
+
+.tab tr td{
+    border: 1px solid black;
+}
+.tab tr td:nth-child(1){
+    border: none;
+    text-align: right;
+}
+
+.tab tr td:nth-child(n+3 ){
+    text-align: center;
+    padding: 0 20px ;
+}
+.bull{
+    display: inline-block;
+    border: 1px solid black;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 0;
+
+}
+.tab tr td:nth-child(2){
+    padding-right: 35px;
+}
+.tb1{
+    margin-left: 70px;
+    
+}
+.tb1 td:nth-child(2){
+    font-weight: bold;
+    font-size: 18px;
+ }
+.ident{
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 96.6%;
+    margin-bottom: 5px;
+}
+.nom{
+    color: rgb(52, 52, 221);
+    
+}
+.nat{
+    color: rgb(52, 52, 221);
+
+}
+span{
+    color: rgb(52, 52, 221);
+    font-weight: bold;
+}
+.moy{
+    margin-left: 60px;
+}
+.app{
+    margin-left: 18px;
+}
+p{
+    margin-left: 120px;
+}
+.cachet{
+    margin-left: 350px;
+    padding: 0%;
+}
+@media screen and (max-width: 1000px) {
+    .tot{
+        max-width: 100%;
+        }
+    
+}
