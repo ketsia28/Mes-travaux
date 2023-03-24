@@ -2,8 +2,8 @@ body{
     border: 3px;
     border-color: black;
     margin:0px ;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
     padding: 5px;
 }
 
@@ -12,7 +12,7 @@ body{
     margin:auto;
     border-color: black;
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
     width: 97.7%;
     margin-left: 15px;
 
@@ -85,15 +85,19 @@ h1{
     margin-bottom: 5px;
 }
 .nom{
-    color: rgb(52, 52, 221);
+    color: rgb(85, 85, 228);
     
 }
 .nat{
-    color: rgb(52, 52, 221);
+    color: rgb(85, 85, 228);
+
+
 
 }
 span{
-    color: rgb(52, 52, 221);
+    color: rgb(85, 85, 228);
+
+
     font-weight: bold;
 }
 .moy{
@@ -101,6 +105,7 @@ span{
 }
 .app{
     margin-left: 18px;
+     
 }
 p{
     margin-left: 120px;
@@ -109,9 +114,21 @@ p{
     margin-left: 350px;
     padding: 0%;
 }
+.gris{
+    background-color: rgb(232, 227, 227);
+    margin-left: 21px;
+
+}
+.tot{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 @media screen and (max-width: 1000px) {
     .tot{
         max-width: 100%;
+        
         }
     
 }

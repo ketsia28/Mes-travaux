@@ -4,6 +4,7 @@ body{
     font-size: 12;
     font-family: 'Times New Roman', Times, serif;
     background-color: aliceblue;
+    text-align: center;
 }
 
 span{
@@ -22,8 +23,14 @@ span{
     color: red;
     background-color: yellow;
 }
-
-  @media screen (max-height: 1000px) {
+.det{
+    text-align: left;
+    margin-bottom: 20px;
+}
+div{
+    Display : block;
+}
+  @media screen and (max-height: 1000px) {
     .emp{
         max-height: 90%;
     }
